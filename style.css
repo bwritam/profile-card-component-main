@@ -32,6 +32,7 @@
 		position: relative;
 		top: 70px;
 		border-radius: 20px;
+		box-shadow: 0 4px 8px 0 hsl(229, 23%, 23%), 0 6px 20px 0 hsl(227, 10%, 46%);
 	}
 	.name{
 		padding-bottom: 5px;
@@ -112,6 +113,7 @@
 		position: relative;
 		top: 70px;
 		border-radius: 20px;
+		box-shadow: 0 4px 8px 0 hsl(227, 10%, 46%), 0 6px 20px 0 hsl(229, 23%, 23%);
 	}
 	.name{
 		padding-bottom: 5px;
