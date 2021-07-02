@@ -1,3 +1,6 @@
+
+/* -------------Mobile Version-------------- */
+
 @media only screen and (max-width: 799px) {
 	body{
 		margin: 5%;
@@ -62,7 +65,6 @@
 	.second-half p{
 		margin-top: 5px;
 		font-size: 10px;
-		letter-spacing: 1px;
 		font-weight: 700;
 	}
 	.second-half h2{
@@ -76,15 +78,17 @@
 	.attribution a { color: hsl(228, 45%, 44%); }
 }
 
+/* -------------Desktop Version----------------*/
+
 @media only screen and (min-width: 800px) {
 	body{
-		margin: 5%;
+		margin: 5% 37%;
 		text-align: center;
 		background-color: hsl(185, 75%, 39%);
 		background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
 		background-size: 80%, 80%;
 		background-repeat: no-repeat, no-repeat;
-		background-position: -150% -150px, 300% 420px;
+		background-position: -162% -550px, 200% 390px;
 		font-family: "Kumbh Sans";
 	}
 	h2{
@@ -103,6 +107,7 @@
 		margin-bottom: 100px;
 		background-color: #fff;
 		background-image: url('images/bg-pattern-card.svg');
+		background-size: 101%;
 		background-repeat: no-repeat;
 		position: relative;
 		top: 70px;
